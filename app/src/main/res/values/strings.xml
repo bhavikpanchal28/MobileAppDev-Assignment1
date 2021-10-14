@@ -1,0 +1,12 @@
+<resources>
+    // string resources for every text that is located on the main page of the Application.
+    <string name="app_name">EMI app</string>
+    <string name="enter_mortgage_principal_amount">Enter Mortgage Principal Amount:</string>
+    <string name="calculate_your_mortgage_payment_here">Calculate your Mortgage Payment here:</string>
+    <string name="enter_interest_rate">Enter Interest Rate (%):</string>
+    <string name="enter_amortization_period_in_years">Enter Amortization Period (in Years):</string>
+    <string name="welcome_to_emi_app">Welcome to EMI app</string>
+    <string name="payments_will_be_made_monthly">Payments will be made Monthly</string>
+    <string name="payment_results">Payment Results:</string>
+    <string name="you_will_pay_this_amount_monthly">You will pay this amount monthly ($):</string>
+</resources>
