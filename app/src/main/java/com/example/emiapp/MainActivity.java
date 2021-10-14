@@ -31,13 +31,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //accessing all variables created in the activity_main.xml
-        editP = (EditText) findViewById(R.id.editP);
-        editIR = (EditText) findViewById(R.id.editIR);
-        editYears = (EditText) findViewById(R.id.editYears);
+        editP = findViewById(R.id.editP);
+        editIR = findViewById(R.id.editIR);
+        editYears = findViewById(R.id.editYears);
 
-        calculateButton = (Button) findViewById(R.id.calculateButton);
+        calculateButton = findViewById(R.id.calculateButton);
 
-        result = (TextView) findViewById(R.id.result);
+        result = findViewById(R.id.result);
 
         //implementation of the calculation button
         calculateButton.setOnClickListener(new View.OnClickListener() {
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //implementation of the button to send user to the second page
-        button = (Button) findViewById(R.id.button);
+        button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
